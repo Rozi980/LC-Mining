@@ -1,0 +1,115 @@
+* {
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color : white;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+body {
+    text-align : center;
+    margin-bottom: 100px;
+    background-image : url("Night\ star\ pattern.webp");
+}
+
+::-webkit-scrollbar {
+    width : 10px;
+}
+
+::-webkit-scrollbar-track {
+    background : #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background : #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background : #555;
+}
+
+p {
+    font-size : 30px;
+}
+
+#pertama {
+    margin-bottom : 30px;
+}
+
+.poster {
+    border-radius: 10px;
+}
+
+/* #perrtama {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width : 80%;
+} */
+
+.pertama {
+    width : 50%;
+    display : inline-block;
+}
+
+#pertama .gambar .panah {
+    width : 50px;
+    height : 50px;
+}
+
+#kedua .poster {
+    width : 70%;
+}
+
+.bawahPoster {
+    width : 50%;
+    display : inline-block;
+}
+
+#kelima div.scroll-container {
+    background-color : #222;
+    overflow : auto;
+    white-space : nowrap;
+    padding : 10px;
+    width : 70%;
+    display : inline-block;
+}
+
+#kelima div.scroll-container img {
+    padding : 10px;
+}
+
+#keenam div a {
+    background-color : gold;
+    padding : 10px;
+    font-size : 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color : black;
+}
+
+#keenam div a:hover {
+    background-color : goldenrod;
+    color : white;
+}
+
+.textWA {
+    display : inline-block;
+    width : 50%;
+}
+
+#ketuju .WAbtn a {
+    background-color : lime;
+    border-radius : 10px;
+    text-decoration : none;
+    font-size : 25px;
+    padding : 10px;
+    font-weight : bold;
+    color : black;
+}
+
+#ketuju .WAbtn a:hover {
+    background-color : limegreen;
+    color : white;
+}
