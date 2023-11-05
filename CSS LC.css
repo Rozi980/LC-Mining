@@ -113,3 +113,31 @@ p {
     background-color : limegreen;
     color : white;
 }
+
+@media only screen and (max-width : 800px) {
+    .pertama {
+        width : 90%;
+    }
+    #kedua .poster {
+        width : 100%;
+    }
+    .bawahPoster {
+        width : 90%;
+    }
+    #kelima .text {
+        width : 90%;
+        display : inline-block;
+    }
+    #keenam div p {
+        width : 90%;
+        display : inline-block;
+    }
+    .textWA {
+        width : 90%;
+        display : inline-block;
+    }
+    .scroll-container img {
+        width : 300px;
+        height : 500px;
+    }
+}
