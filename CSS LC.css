@@ -114,7 +114,7 @@ p {
     color : white;
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 992px) {
     .pertama {
         width : 90%;
     }
